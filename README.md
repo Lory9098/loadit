@@ -31,5 +31,19 @@ which will then go into the initialized onEnable. Example:
 
 ![image](https://github.com/Lory9098/loadit/assets/83712762/2c95ca59-8ab8-4511-86ad-17409eae9c0e)
 
+**# 4. GETTING PLAYER**
+
+To get the PlayerData object just throw the Loadit object (if you followed the part above it's in the main class), and do loadit.getContainer()
+
+and you have access to many methods, including:
+
+Optional<T> getCached(UUID uuid);
+
+T getCached(Player player);
+
+void acceptIfCached(UUID uuid, Consumer<T> consumer);
+
+void acceptIfCached(Player player, Consumer<T> consumer);
+
 
 And there you have it! Thanks for using Loadit!
