@@ -33,7 +33,7 @@ which will then go into the initialized onEnable. Example:
 
 **# 4. GETTING PLAYER**
 
-To get the PlayerData object just throw the Loadit object (if you followed the part above it's in the main class), and do loadit.getContainer()
+To get the PlayerData object just get the Loadit object (if you followed the part above it's in the main class), and do loadit.getContainer()
 
 and you have access to many methods, including:
 
